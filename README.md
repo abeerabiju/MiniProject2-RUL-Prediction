@@ -1,14 +1,43 @@
-# PHM IEEE 2012 Data Challenge
+# Predictive Maintenance – RUL Prediction
 
-This is a dataset that was used for the PHM IEEE 2012 Data Challenge. It used to be online at http://www.femto-st.fr/en/Research-departments/AS2M/Research-groups/PHM/IEEE-PHM-2012-Data-challenge.php, but isn't anymore.
+Predictive Maintenance project focused on estimating the **Remaining Useful Life (RUL)** of rolling element bearings using the **PRONOSTIA (PHM IEEE 2012) dataset**.
 
-The set contains a training set of 6 rolling bearings that were operated in three different conditions, and a testing set of 11 more. See the added PDF file for all the info of the challenge and the set.
+## 🚀 Overview
 
-## License
+This project analyzes bearing vibration signals to predict equipment degradation and estimate the time remaining before failure. The goal is to support proactive maintenance planning and reduce unexpected downtime.
 
-I don't know if there was any license to this, but always cite using below citation. There is a BibTeX entry in the PDF file.
+## 🛠 Technologies
 
-## Citation
+- Python
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
 
-Nectoux, P., Gouriveau, R., Medjaher, K., Ramasso, E., Chebel-Morello, B., Zerhouni, N., … Varnier, C. (2012). PRONOSTIA : An experimental platform for bearings accelerated degradation tests. In IEEE International Conference on Prognostics and Health Management (pp. 1–8). Denver.
+## 📊 Workflow
 
+- Data preprocessing
+- Feature extraction from vibration signals
+- RUL label generation
+- Model training and evaluation
+- Visualization of degradation trends
+
+## 📈 Results
+
+The project demonstrates a complete predictive maintenance pipeline for bearing health monitoring and Remaining Useful Life estimation using real industrial data.
+
+## 📂 Repository Contents
+
+- `B5_RUL.ipynb` – Main notebook
+- `B5_RUL_presentation.pptx` – Project presentation
+- `Team 1_B5_Mini Project 2_Report File.pdf` – Final report
+- `IEEEPHM2012-Challenge-Details.pdf` – Dataset reference
+
+## 🎓 Learning Outcomes
+
+- Predictive Maintenance
+- Remaining Useful Life (RUL) Prediction
+- Industrial AI
+- Time Series Analysis
+- Machine Learning
